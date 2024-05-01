@@ -16,22 +16,22 @@ public class User implements UserDetails{
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	@Column(name="id")
-	Integer Id;
+	private Integer Id;
 	
 	@Column(name="first_name")
-	String firstName;
+	private String firstName;
 	
 	@Column(name="last_name")
-	String lastName;
+	private String lastName;
 	
 	@Column(name="username")
-	String username;
+	private String username;
 	
 	@Column(name="password")
-	String password;
+	private String password;
 	
 	@Enumerated(value=EnumType.STRING)
-	Role role;
+	private Role role;
 
 	public Integer getId() {
 		return Id;
