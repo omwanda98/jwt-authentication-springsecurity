@@ -16,4 +16,9 @@ public class DemoController {
     public ResponseEntity<String> adminOnly() {
         return ResponseEntity.ok("Hello from admin only url");
     }
+    
+    @GetMapping("/user_only")
+    public ResponseEntity<String> userOnly() {
+        return ResponseEntity.ok("Hello from user only url");
+    }
 }

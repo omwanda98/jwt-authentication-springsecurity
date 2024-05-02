@@ -15,3 +15,6 @@ This project implements JWT authentication with Spring Security. It includes end
 
 ### Admin-Only Access
 ![admin only](screenshots/admin-only.PNG)
+
+### User-Only Access
+![user only](screenshots/user-only.PNG)
